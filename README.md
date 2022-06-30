@@ -1,1 +1,1 @@
-# Vaccine Preventable Disease Case-based Surveillance - Tracker metadata package
+# Vaccine Preventable Diseases - Case Surveillance - Tracker metadata package
