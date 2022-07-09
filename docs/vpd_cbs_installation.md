@@ -1,22 +1,14 @@
 # VPD-CBS Tracker Installation Annex { #vpd-cbs-installation }
 
-Package Version 1.0
-DHIS2 Version compatibility 2.34.1 and above
-
-Demo:
-[https://who-demos.dhis2.org/surveillance](https://who-demos.dhis2.org/surveillance)
-
 ## Overview
 
-The VPD-CBS package was developed on DHIS2 2.34.1. In order to use the package, it is recommended that you install it into a DHIS2 instance using DHIS 2.34.1 or above. If you will be setting this up on a new instance, please refer to the [DHIS2 installation guide](#installation).
-
-VPD-CBS package is self-contained, meaning it can be installed on its own. However, it is worth noticing that this package contains some metadata from the IDSR package. The reason for this is that there is a comparative table which makes it possible to compare the aggregated data and the tracker data. Thus, we recommend installing the IDSR package prior to this one, although it is not a mandatory requirement.
+The VPD CBS tracker package is self-contained, meaning it can be installed on its own. However, it is worth noticing that this package contains some metadata from the IDSR package. The reason for this is that there is a comparative table which makes it possible to compare the aggregated data and the tracker data. Thus, we recommend installing the aggregate disease surveillance ("IDSR") package prior to this one, although it is not a mandatory requirement.
 
 ### Generic metadata
 
-The package contains some metadata which is labeled as “generic”. It is likely that you have similar elements already in your database. These generic elements are used in some indicators and they are part of the IDSR package.
+The package contains some metadata that is typically common or shared across many health programs. These metadata have a prefix 'GEN' to signify that they are generic and re-usable in other parts of the DHIS2 configuration. It is likely that you have similar elements already in your database. These generic elements are used in some indicators and they are included in the aggregate surveillance/IDSR metadata file. 
 
-Data Elements used in CBS package
+Generic Data Elements used in CBS package
 
 | Object                       | UID         | API endpoint                                                 |
 |------------------------------|-------------|--------------------------------------------------------------|
