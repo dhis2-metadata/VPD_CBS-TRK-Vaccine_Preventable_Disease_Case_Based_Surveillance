@@ -1,4 +1,4 @@
-# VPD Case-based Surveillance Tracker Design { #vpd-tracker-design }
+# VPD Case Surveillance Tracker Design { #vpd-cs-design }
 
 ## Introduction
 
