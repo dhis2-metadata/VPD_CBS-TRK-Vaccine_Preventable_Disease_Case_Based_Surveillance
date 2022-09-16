@@ -2,7 +2,7 @@
 
 ## Overview
 
-The VPD CS tracker package is self-contained, meaning it can be installed on its own. However, it is worth noticing that this package contains some metadata from the IDSR package. The reason for this is that there is a comparative table which makes it possible to compare the aggregated data and the tracker data. Thus, we recommend installing the aggregate disease surveillance ("IDSR") package prior to this one, although it is not a mandatory requirement.
+The VPD CS tracker package is self-contained, meaning it can be installed on its own. However, it is worth noticing that this package contains some metadata from the IDSR package. The reason for this is that there is a comparative table which makes it possible to compare the aggregated data and the tracker data. Thus, we recommend installing the aggregate disease surveillance ("IDS") package prior to this one, although it is not a mandatory requirement.
 
 ### Generic metadata
 
