@@ -1,8 +1,10 @@
 # Release Note
 
+## 1.1.0
+
 A new version (1.1.0) of the VPD case surveillance tracker has been released with new indicators, configuration fixes and improvements. These are summarized below.
 
-## New Content
+### New Content
 
 * New **program indicators** for visualizing measles cases by age band and vaccination status. These program indicators are used in the complementary Immunity Gaps dashboard (released as a separate package), designed to triangulate immunization and surveillance data.
 * New **indicators** for measles/rubella laboratory specimen adequacy and sensitivity indicators
@@ -10,7 +12,7 @@ A new version (1.1.0) of the VPD case surveillance tracker has been released wit
   * CBS - Proportion of Measles/Rubella specimen adequacy received by National laboratory (%) `MKzrxSTNuGe`
   * CBS - Proportion of Measles/Rubella specimen adequacy (%) `rg1o94xciwp`
 
-## Fixes & Improvements
+### Fixes & Improvements
 
 * Object **names** and **codes** have been updated to fix spelling errors and align with for consistency with DHIS2-recommended metadata coding practices.
 
