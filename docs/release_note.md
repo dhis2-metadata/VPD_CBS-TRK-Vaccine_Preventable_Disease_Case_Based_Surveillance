@@ -1,4 +1,4 @@
-# Release Note
+# Release Note { #vpd-cs-release-note }
 
 ## 1.1.0
 
