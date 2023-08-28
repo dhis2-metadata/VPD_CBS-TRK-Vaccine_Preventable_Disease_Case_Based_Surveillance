@@ -1,5 +1,48 @@
 # Release Note { #vpd-cs-release-note }
 
+## 1.1.1
+
+Version 1.1.1 of the VPD case surveillance tracker is a compatibility release for DHIS2 versions 2.38 and 2.39, which also includes a few minor fixes described below.
+
+### Known issues
+
+Due to a [bug](https://dhis2.atlassian.net/browse/DHIS2-14159) in 2.39.2.1 and 2.38.4.3 certain visuazliations are non-functional. A fix for this bug is currently (August 2023) in testing, and is scheduled to be included in the next DHIS2 software patch release. 
+
+
+### Fixes and improvements
+
+**Program indicators** for cases/deaths by _age_ have received two modifications:
+
+* the program indicator description has been updated to specify that the various age groups include cases where the date of birth is estimated;
+* the program indicator filter for the "age unknown" PIs has been updated to check for whether the date of birth attribute has been entered, instead of whether the date of birth is unknown checkbox is ticked;
+
+New program indicator added:
+
+* VPD CS - No lumbar puncture_enrBounds `psGiPlDUjYJ`
+
+**Tracked entity attributes**
+
+New tracked entity attribute included
+
+* GEN - National ID `Ewi7FUfcHAD`
+
+**Visualisations**
+
+Some visualizations on the Yellow fever dashboard have been updated.
+
+New: 
+* CBSURV-YF-1 Suspected and confirmed cases `u607ipMtUJe`
+* CBSURV-YF-2 Cases by age `d7xQJgR8bs0`
+* CBSURV-YF-6 Deaths by vacci status `Kt3JoTMaPEH`
+* CBSURV-YF-5 Cases by vacci status `KIyP6R1oCBF`
+* CBSURV-YF-3 Deaths by age `FrssprmRhns`
+
+Deleted: 
+* VPD-CS-062 `BkKrL1tnoUp`
+* VPD-CS-063 `dtC9HaSt15H`
+* VPD-CS-064 `sOVKabM1vnH`
+
+
 ## 1.1.0
 
 A new version (1.1.0) of the VPD case surveillance tracker has been released with new indicators, configuration fixes and improvements. These are summarized below.
