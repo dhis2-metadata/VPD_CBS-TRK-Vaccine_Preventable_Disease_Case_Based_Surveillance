@@ -2,19 +2,19 @@
 
 ## 1.1.1
 
-Version 1.1.1 of the VPD case surveillance tracker is a compatibility release for DHIS2 versions 2.38 and 2.39, which also includes a few minor fixes described below.
+Version 1.1.1 of the VPD case surveillance tracker is a compatibility release for DHIS2 versions 2.38 and 2.39, which also includes minor fixes described below.
 
 ### Known issues
 
-Due to a [bug](https://dhis2.atlassian.net/browse/DHIS2-14159) in 2.39.2.1 and 2.38.4.3 certain visuazliations are non-functional. A fix for this bug is currently (August 2023) in testing, and is scheduled to be included in the next DHIS2 software patch release. 
+Due to a [bug](https://dhis2.atlassian.net/browse/DHIS2-14159) in 2.39.2.1 and 2.38.4.3 certain visualizations are not functioning as expected. A fix for this bug is currently (August 2023) in testing, and is scheduled to be included in the next DHIS2 software patch release. 
 
 
 ### Fixes and improvements
 
 **Program indicators** for cases/deaths by _age_ have received two modifications:
 
-* the program indicator description has been updated to specify that the various age groups include cases where the date of birth is estimated;
-* the program indicator filter for the "age unknown" PIs has been updated to check for whether the date of birth attribute has been entered, instead of whether the date of birth is unknown checkbox is ticked;
+* the program indicator description has been updated to specify that the various PIs that calculate cases and deaths by age bands include cases where the date of birth is estimated and the case/death can be reasonably attributed to the correct age band;
+* the program indicator filter for the "age unknown" PIs has been updated to check for whether the date of birth attribute has been entered, instead of whether the 'date of birth is unknown' checkbox is ticked;
 
 New program indicator added:
 
@@ -26,7 +26,7 @@ New tracked entity attribute included
 
 * GEN - National ID `Ewi7FUfcHAD`
 
-**Visualisations**
+**Visualizations**
 
 Some visualizations on the Yellow fever dashboard have been updated.
 
